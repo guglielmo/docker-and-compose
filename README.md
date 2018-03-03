@@ -5,7 +5,7 @@ and modified in order to advance docker and docker-compose versions.
 Can be used for docker-in-docker in GitLab like this:
 
 ```
-  image: guglielmo/docker-and-compose:
+  image: guglielmo/docker-and-compose:latest
   services:
     - docker:18-dind
 ```

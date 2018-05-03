@@ -1,6 +1,6 @@
 FROM docker:latest
 
-ARG compose_version=1.20.0
+ARG compose_version=1.21.0
 
 # Install docker-compose (extra complicated since the base image uses alpine as base)
 RUN apk update && apk add --no-cache \
